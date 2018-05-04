@@ -1,0 +1,4 @@
+*.mat
+*.pyc
+python/python-notebook/*png
+python/python-notebook/.ipynb_checkpoints/
