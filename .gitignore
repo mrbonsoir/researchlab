@@ -2,3 +2,5 @@
 *.pyc
 python/python-notebook/*png
 python/python-notebook/.ipynb_checkpoints/
+.Trash-0/
+.ipynb_checkpoints/
