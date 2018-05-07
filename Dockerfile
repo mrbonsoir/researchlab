@@ -8,7 +8,7 @@ RUN apt-get update && apt-get -y dist-upgrade
 RUN apt-get update && apt-get install -y build-essential python-pip
 
 # Python package installation
-RUN pip install --upgrade pip jupyter numpy matplotlib scipy scikit-learn scikit-image pandas
+RUN pip install --upgrade pip jupyter numpy matplotlib scipy scikit-learn scikit-image pandas colorspacious
 
 # Mounting notebooks volume and using it as working directory for jupyter
 VOLUME /researchlab

@@ -1,5 +1,12 @@
 #!/bin/bash
 
+if [ "$USER" != researchlab ]
+then
+  echo "Error: This script is meant to be run from the docker container!"
+  echo "(Tip: Run ./docker.sh instead.)"
+  exit 1
+fi
+
 # Exit this script if any error is encountered (e) and print every command (x)
 set -ex
 
