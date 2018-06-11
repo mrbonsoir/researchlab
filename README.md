@@ -2,7 +2,7 @@
 
 You will find information to launch a docker with the necessary resources to start a python notebook.
 
-The **goal** is to have a reproducable working environment.
+The **goal** is to have a reproducible working environment.
 
 Once the docker image is running you can open notebook saved locally.
 
